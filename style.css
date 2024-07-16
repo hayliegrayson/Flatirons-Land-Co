@@ -431,9 +431,12 @@ span {
         display: flex;
         flex-direction: column;
         gap: 8px;
-    }
+    } 
     h1 {
         font-size: 40;
+    }
+    .nav-link {
+        font-size: 14px;
     }
 }
 
