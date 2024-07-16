@@ -237,6 +237,11 @@ input, textarea {
     font-family: inherit;
 }
 
+input:focus, textarea:focus{
+    border: 1px solid var(--primary-color);
+    background: white;
+}
+
 textarea {
     min-height: 150px;
 }
