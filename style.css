@@ -269,6 +269,23 @@ input[type="checkbox"] {
     font-size: 14px;
 }
 
+.field-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.double-field-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.double-field-container .form-field {
+    flex-basis: 50%;
+}
+
 /* /// ACCORDION /// */
 .accordion-container{
     width: 70%;
@@ -408,6 +425,13 @@ span {
         height: 500px;
         object-fit: cover;
     }
+    .double-field-container{
+        flex-direction: column;
+    }
+    
+    .double-field-container .form-field {
+        flex-basis: 100%;
+    }
     .flex-container {
         gap: 40px;
     }
@@ -437,6 +461,10 @@ span {
     }
     .nav-link {
         font-size: 14px;
+    }
+    .field-container .form-field {
+        flex-direction: column;
+        flex-basis: 100%;
     }
 }
 

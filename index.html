@@ -162,27 +162,43 @@
                         <br>
                         <a class="body-link" href="mailto:cheryl@flatironslandco.com">cheryl@flatironslandco.com</a>
 
+                
                         <form method="POST" data-netlify="true">
+                            <span>All fields are required.</span>
+                            
                             <div class="form-field">
                                 <label for="name">Full Name</label>
                                 <input id="name" type="text" required>
                             </div>
-                            <div class="form-field">
-                                <label for="email">Email</label>
-                                <input id="email" type="email" required>
+                            <div class="double-field-container">
+                                <div class="form-field">
+                                    <label for="email">Email</label>
+                                    <input id="email" type="email" required>
+                                </div>
+                                <div class="form-field">
+                                    <label for="phoneNum">Phone Number</label>
+                                    <input id="phoneNum" type="tel" required>
+                                </div>
                             </div>
-                            <div class="form-field">
-                                <label for="refNum">Reference Number</label>
-                                <input id="refNum" type="text">
-                            </div>
-                            <div class="form-field">
-                                <label for="counter">Counter Offer</label>
+                            <div class="double-field-container">
+                                <div class="form-field">
+                                    <label for="refNum">Reference Number</label>
+                                    <input id="refNum" type="text">
+                                </div>
+                                <div class="form-field">
+                                    <label for="counter">Counter Offer</label>
                                 <input id="counter" type="text">
+                                </div>
                             </div>
-                            <div class="form-field">
+                            <div class="">
                                 <label for="message">Message</label>
-                                <textarea name="message" id="message" required></textarea>
+                                <textarea name="message" id=""></textarea>
                             </div>
+                            
+
+
+
+
                             <div class="checkbox-field">
                                 <input id="checkbox" type="checkbox" required>
                                 <label class="checkbox-text" for="checkbox">By submitting this form and signing up for texts, you consent to receive marketing text messages from Flatirons Land Co at the number provided. Consent is not a condition of purchase. Msg & data rates may apply. Unsubscribe at any time by replying "STOP.”</label>
