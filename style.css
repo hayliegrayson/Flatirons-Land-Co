@@ -105,6 +105,16 @@ h3 {
     color: var(--primary-color);
 }
 
+.btn-ghost {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-ghost:hover, .btn-ghost:focus {
+    background: var(--primary-color);
+    color: #fff;
+}
+
 .btn-main:hover, .btn-main:focus, .btn-main:active {
     background: var(--btn-color);
     color: var(--primary-color);
@@ -179,6 +189,12 @@ nav {
     font-size: 18px;
     margin: 40px auto 64px auto;
     width: 70%;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 /* /// SERVICES /// */
@@ -389,10 +405,18 @@ span {
     opacity: 70%;
 } 
 
+/* ----- CONTACT PAGE ----- */
+.green {
+    color: var(--primary-color);
+}
+.contact-page-form {
+    max-width: 800px;
+}
+
 /* /// HOMEPAGE RESPONSIVE DESIGN /// */
 @media screen and (max-width: 1037px) {
     main {
-        height: 80vh;
+        height: 90vh;
     }
     section {
         padding: 72px 0;
@@ -428,6 +452,9 @@ span {
     .double-field-container{
         flex-direction: column;
     }
+    .btn {
+        width: 100%;
+    }
     
     .double-field-container .form-field {
         flex-basis: 100%;
@@ -437,6 +464,11 @@ span {
     }
     .w-50 {
         margin-bottom: 32px;
+    }
+}
+@media screen and (max-width: 849px) {
+    .contact-page-form {
+        max-width: 100%;
     }
 }
 @media screen and (max-width: 617px){
@@ -450,7 +482,7 @@ span {
         font-size: 18px;
     }
 }
-@media screen and (max-width: 505px){
+@media screen and (max-width: 557px){
     .nav-container {
         display: flex;
         flex-direction: column;
@@ -465,6 +497,15 @@ span {
     .field-container .form-field {
         flex-direction: column;
         flex-basis: 100%;
+    }
+}
+
+@media screen  and (max-width: 417px) {
+    main {
+        height: auto;
+    }
+    .hero-text {
+        width: 100%;
     }
 }
 
