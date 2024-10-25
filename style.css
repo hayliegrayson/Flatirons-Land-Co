@@ -408,9 +408,15 @@ span {
 /* ----- CONTACT PAGE ----- */
 .green {
     color: var(--primary-color);
+    margin-bottom: 16px;
 }
 .contact-page-form {
     max-width: 800px;
+}
+
+.w-50 {
+    width: 50%;
+    margin-bottom: 0;
 }
 
 /* /// HOMEPAGE RESPONSIVE DESIGN /// */
